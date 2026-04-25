@@ -1,17 +1,19 @@
 package org.example;
 
-//TIP Чтобы <b>запустить</b> код, нажмите <shortcut actionId="Run"/> или
-// нажмите на значок <icon src="AllIcons.Actions.Execute"/> в поле.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Нажмите <shortcut actionId="ShowIntentionActions"/>, когда курсор находится на выделенном тексте
-        // чтобы увидеть, как OpenIDE предлагает это исправить.
-        System.out.printf("Hello and welcome!");
+package org.example;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Нажмите <shortcut actionId="Debug"/>, чтобы начать отладку вашего кода. Мы установили одну <icon src="AllIcons.Debugger.Db_set_breakpoint"/> точку останова
-            // для вас, но вы всегда можете добавить больше, нажав <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+import io.restassured.http.ContentType;
+import org.json.JSONObject;
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
+import java.util.HashMap;
+import java.util.Map;
+import static io.restassured.RestAssured.given;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+public class Main {
+    @Test
+
     }
 }
