@@ -13,6 +13,10 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    
+    // REST Assured для тестирования API
+    testImplementation 'io.rest-assured:rest-assured:5.4.0'
+    testImplementation 'org.json:json:20231013'
 }
 
 test {
